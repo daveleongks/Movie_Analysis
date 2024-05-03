@@ -27,7 +27,7 @@ Utilize feature engineering results to determine the features that significantly
 ├── Data
 │   └── movies.dat
 │   └── ratings.dat
-│   └── users.py
+│   └── users.dat
 ├── README.md
 ├── EDA.ipynb
 ```
