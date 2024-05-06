@@ -10,11 +10,11 @@ Create a new dataset named Master_Data, which includes the following columns: Mo
 
 ### 2. Insights based on Exploratory Data Analysis (EDA) not limited to below areas:
 - **User Age Distribution**: Range of age 25 to 34 has the highest age distribution.
-    ![Movie_Analysis](images/Age_Distribution.jng)
+    ![Movie_Analysis](./Images/Age_Distribution.jng)
     
 - **User Rating of "Toy Story"**: Most of the user rating falls within 4 and 5, and the average rating is 4.15.
 - **Top 25 Movies by Viewership Rating**: 
-    ![Movie_Analysis](./images/Top25movies.jng)
+    ![Movie_Analysis](./Images/Top25movies.jng)
 - **Ratings for Movies Reviewed by a Specific User**: We shall used user ID of 2796 for our analysis and refer to the juypter notebook for the analysis.
 - **Top three occupation / group**: 
     1) College / grad student
@@ -25,7 +25,7 @@ Create a new dataset named Master_Data, which includes the following columns: Mo
 - **Unique Genres**: A total of 18 unique genres.
 - **One-Hot Encoding**: Create a separate column for each genre category with one-hot encoding (1 and 0) to indicate whether or not the movie belongs to that genre.
 - **Feature selection**: I have used the chi-squared statistical method to identify the top 10 features.
-    ![Movie_Analysis](./images/features.jng)
+    ![Movie_Analysis](./Images/features.jng)
 
 ## 4. Overview of the folder structure
 ```
