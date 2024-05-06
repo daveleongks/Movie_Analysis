@@ -14,7 +14,7 @@ Create a new dataset named Master_Data, which includes the following columns: Mo
     
 - **User Rating of "Toy Story"**: Most of the user rating falls within 4 and 5, and the average rating is 4.15.
 - **Top 25 Movies by Viewership Rating**: 
-    ![Movie_Analysis](./Images/Top25movies.[ng)
+    ![Movie_Analysis](./Images/Top25movies.png)
 - **Ratings for Movies Reviewed by a Specific User**: We shall used user ID of 2796 for our analysis and refer to the juypter notebook for the analysis.
 - **Top three occupation / group**: 
     1) College / grad student
@@ -33,6 +33,7 @@ Create a new dataset named Master_Data, which includes the following columns: Mo
 │   └── movies.dat
 │   └── ratings.dat
 │   └── users.dat
+├── Images
 ├── README.md
 ├── EDA.ipynb
 ```
