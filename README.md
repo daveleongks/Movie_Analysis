@@ -10,7 +10,8 @@ Create a new dataset named Master_Data, which includes the following columns: Mo
 
 ### 2. Insights based on Exploratory Data Analysis (EDA) not limited to below areas:
 - **User Age Distribution**: Range of age 25 to 34 has the highest age distribution.
-    ![Movie_Analysis](./images/Age_Distribution.jng)
+    ![Movie_Analysis](images/Age_Distribution.jng)
+    
 - **User Rating of "Toy Story"**: Most of the user rating falls within 4 and 5, and the average rating is 4.15.
 - **Top 25 Movies by Viewership Rating**: 
     ![Movie_Analysis](./images/Top25movies.jng)
