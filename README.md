@@ -1,6 +1,6 @@
 # Movie_Analysis Project
 
-## Objective
+## Problem Objective / Statement:
 The primary objective is to conduct in-depth exploratory data analysis (EDA) and feature engineering to uncover insights into movie ratings. By leveraging feature engineering techniques, I aim to identify key features that influence the ratings of the movies.
 
 ## Analysis Tasks:
@@ -8,21 +8,25 @@ The primary objective is to conduct in-depth exploratory data analysis (EDA) and
 ### 1. Create Master Dataset
 Create a new dataset named Master_Data, which includes the following columns: MovieID, Title, UserID, Age, Gender, Occupation, and Rating. This consolidated dataset will facilitate comprehensive analysis.
 
-### 2. Exploratory Data Analysis (EDA) not limited to below areas:
-- **User Age Distribution**: Visualize the distribution of user ages to understand the demographics of the user base.
-- **User Rating of "Toy Story"**: Analyze and visualize user ratings specifically for the movie "Toy Story" to gauge its popularity and reception.
-- **Top 25 Movies by Viewership Rating**: Identify and visualize the top 25 movies based on viewership ratings to understand the most popular movies among users.
-- **Ratings for Movies Reviewed by a Specific User**: Find and visualize the ratings for all movies reviewed by a particular user with user ID = 2696.
+### 2. Insights based on Exploratory Data Analysis (EDA) not limited to below areas:
+- **User Age Distribution**: Range of age 25 to 34 has the highest age distribution.
+    ![Movie_Analysis](./images/Age_Distribution.jng)
+- **User Rating of "Toy Story"**: Most of the user rating falls within 4 and 5, and the average rating is 4.15.
+- **Top 25 Movies by Viewership Rating**: 
+    ![Movie_Analysis](./images/Top25movies.jng)
+- **Ratings for Movies Reviewed by a Specific User**: We shall used user ID of 2796 for our analysis and refer to the juypter notebook for the analysis.
+- **Top three occupation / group**: 
+    1) College / grad student
+    2) Others
+    3) Executive / managerial
 
 ### 3. Feature Engineering
-- **Unique Genres**: Find all the unique genres present in the dataset.
+- **Unique Genres**: A total of 18 unique genres.
 - **One-Hot Encoding**: Create a separate column for each genre category with one-hot encoding (1 and 0) to indicate whether or not the movie belongs to that genre.
-   
-### 4. Determine Features Affecting Ratings
-Utilize feature engineering results to determine the features that significantly affect the ratings of any particular movie.
+- **Feature selection**: I have used the chi-squared statistical method to identify the top 10 features.
+    ![Movie_Analysis](./images/features.jng)
 
-## 5. Overview of the folder structure
-
+## 4. Overview of the folder structure
 ```
 ├── Data
 │   └── movies.dat
